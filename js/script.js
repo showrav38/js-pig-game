@@ -27,6 +27,7 @@ const swithcPlayer = function () {
   player1El.classList.toggle('player--active');
 };
 
+//working on roll button
 btnRoll.addEventListener('click', function () {
   if (playing) {
     // 1. Genereting a rando, dice roll
